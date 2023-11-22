@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.navHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .navContent {
+    padding: 25px;
+  }
+}
+
+.websiteLogo {
+  width: 40px;
+}
+@media screen and (min-width: 768px) {
+  .websiteLogo {
+    width: 50px;
+  }
+}
+
+.hamburgerIconButton {
+  background-color: transparent;
+  width: 45px;
+  height: 38px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modalContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .modalContainer {
+    max-width: 1110px;
+  }
+}
+
+.closeButton {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.navLinksList {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinkItem {
+  list-style-type: none;
+}
+
+.navLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #616e7c;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.navLinkContent {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .navLinkContent {
+    font-size: 40px;
+  }
+}
